@@ -1,0 +1,25 @@
+
+.settings__section{
+    border-top: 1px solid #f7f7f7;
+    padding: 30px 0px;
+}
+.header__icon{
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.kk{
+    display: flex;
+    align-items: center;
+}
+#ksettings{
+    margin-left: 10px;
+}
+.settings__title{
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 300;
+}
+.settings__setting{
+    margin-bottom: 20px;
+}

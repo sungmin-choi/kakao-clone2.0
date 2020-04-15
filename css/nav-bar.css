@@ -1,0 +1,46 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 50px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #f7f7f7;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__list-link{
+    position: relative;
+}
+.nav__badge{
+    font-size: 11px;
+    position: absolute;
+    top:-5px;
+    left:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(241, 58, 58);
+    border-radius: 15px;
+    color: white;
+}
+
+@keyframes showNavBar{
+    from{
+   transform: translateY(80px);
+    }
+    to{
+        transform: none;
+        
+    }
+}
+
+.nav{
+    transform: translateY(80px);
+    animation:  showNavBar 0.5s ease-out forwards;
+    animation-delay:0.5s ;
+}
